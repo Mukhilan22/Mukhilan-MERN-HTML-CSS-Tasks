@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 6</title>
+    <style>
+        img{
+            display: block;
+            margin-top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        div{
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+        }
+        input{
+            width:500px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+        }
+        label{
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        button{
+            background-color: green;
+            color: white;
+            text-align: center;
+            margin-top: 10px;
+            width: 510px;
+            padding: 5px;
+        }
+        .side{
+            width: auto;
+        }
+        .check{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .cancel{
+            width:auto;
+            background-color: red;
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .pass{
+            margin-left: 320px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <img src="dp.jpg">
+    <div>
+    <form>
+        <label for="username">Username</label><br/>
+        <input type="text" placeholder="Enter Username" id="username"><br/>
+        <label for="password">Password</label><br/>
+        <input type="password" placeholder="Enter Password" id="password"><br/>
+        <button>Login</button><br/>
+        <input type="checkbox" value="Remember Me" id="Remember Me" checked class="side">
+        <label for="Remember Me" class="check">Remember Me</label><br/>
+        <button class="cancel"> Cancel</button>
+        <label class="pass">Forgot <span><a href="#pass">Password</a></span></label>    
+    </form>
+    </div>
+</body>
+</html>
